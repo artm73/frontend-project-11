@@ -1,0 +1,31 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "third project RSS-agregator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artm73/frontend-project-11.git"
+  },
+  "author": "artm731",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/artm73/frontend-project-11/issues"
+  },
+  "homepage": "https://github.com/artm73/frontend-project-11#readme",
+  "dependencies": {
+    "lodsah": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-base": "^1.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^29.3.1",
+    "prettier": "^2.8.1"
+  }
+}
