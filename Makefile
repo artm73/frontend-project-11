@@ -1,12 +1,12 @@
 develop:
-	npm run start
+	npx webpack serve
 
 install:
 	npm ci
 
 build:
-	npm run build
-test:
-	npm test
+	rm -rf dist
+	NODE_ENV=production npx webpack
+
 lint:
-	npx eslint --fix .
+	npx eslint .
