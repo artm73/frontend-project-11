@@ -4,6 +4,7 @@
   "description": "third project RSS-agregator",
   "main": "index.js",
   "scripts": {
+    "webpack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,20 +13,29 @@
   },
   "author": "artm731",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/artm73/frontend-project-11/issues"
   },
   "homepage": "https://github.com/artm73/frontend-project-11#readme",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "lodsah": "^0.0.1-security"
   },
   "devDependencies": {
+    "css-loader": "^6.7.3",
     "eslint": "^8.31.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-base": "^1.0.0",
     "eslint-plugin-import": "^2.26.0",
+    "html-webpack-plugin": "^5.5.0",
     "jest": "^29.3.1",
-    "prettier": "^2.8.1"
+    "postcss-loader": "^7.0.2",
+    "prettier": "^2.8.1",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
   }
 }
